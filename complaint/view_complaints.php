@@ -1,8 +1,8 @@
 <?php
 // Database connection
 $servername = "localhost";
-$username = "root"; // Update with your MySQL username
-$password = ""; // Update with your MySQL password
+$username = "root"; 
+$password = ""; 
 $dbname = "complaint_management";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -18,9 +18,9 @@ $result = $conn->query($sql);
 <html>
 <head>
     <title>View Complaints</title>
-    <!-- Navbar CSS (You can add your CSS for styling the navbar) -->
+   
     <style>
-        /* General styles */
+      
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
